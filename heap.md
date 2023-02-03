@@ -1,1 +1,0 @@
-https://devolve.tistory.com/
