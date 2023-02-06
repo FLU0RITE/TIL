@@ -17,5 +17,5 @@
 * 힙
   + [정의](./algorithm/heap.md)
   + [힙 정렬](./algorithm/heapSort.md)
-
+  + [상향식 힙 정렬의 수행시간](./algorithm/상향식.md)
 ---
