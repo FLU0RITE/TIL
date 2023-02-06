@@ -11,11 +11,11 @@
 실행시간: 우선순위 큐의 구현에 따라 다르다.
 
 #### 우선순위 정렬 pseudo code
-
+```
 Alg PQ-Sort(L)
     input list L
     output sorted list L
-```
+
 1. P <- empty priority queue
 2. while (!L.isEmpty())
        e <- L.removeFirst()
