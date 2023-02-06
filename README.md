@@ -1,7 +1,7 @@
 # TIL
 #### Today I Learned
 * 정리
-  + [문법 & 함수 & 변수](./androidStudio/grammar.md)
+  + [문법 & 함수 & 변수](./androidStudio/kotlinGrammar.md)
 
 
 ## 안드로이드 스튜디오
