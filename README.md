@@ -16,5 +16,6 @@
 ## 알고리즘
 * 힙
   + [정의](./algorithm/heap.md)
+  + [힙 정렬](./algorithm/heapSort.md)
 
 ---
