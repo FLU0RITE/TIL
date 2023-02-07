@@ -42,3 +42,38 @@ constructor(name: String): super(name) {
 ```
 ##### 오버라이딩 - 재정의
 ##### 상속이 주는 최고의 이점은 상위 클래스에 정의된 멤버(변수, 함수)를 클래스에서 자신의 멤버처럼 사용할 수 있다는 것  
+```kotlin
+open class Super { 
+     var superData = 10 
+     fun superFun() {
+         println(“i am superFun : $superData”) 
+     }
+}
+class Sub: Super() 
+fun main() {
+     val obj = Sub() 
+     obj.superData = 20 
+     obj.superFun() 
+}
+```
+상위 클래스의 멤버를 하위 클래스를 통해 이용할 수 있고 상위클래스 변수를 하위클래스 에서 재정의 할 수 있다.  
+그 대신 상위에 오버라이드 할 함수나 변수 앞에 open 재정의 할 땐 override 키워드 써 줘야한다.  
+데이터클래스1.equals(데이터클래스2) === 주 생성자의 멤버변수만 같으면 됨.  
+toString()은 데이터 클래스가 아닌 일반클래스에서는 의미 있는 데이터가 아니다.  
+하지만 데이터 클래스에서는 데이터 확인할 때 유용하게 사용할 수 있다.  
+오브젝트 클래스는 상위 클래스를 그대로 쓸려고 가져오는 도구이다.  
+```kotlin
+Val apple = object() : 상위클래스(){ 
+}
+```
+처럼 가져와서 변형하여 쓰는 거다 그런데 : 이거 뒤에 머 없으면 Any 취급 당하는데
+이건 뭐 함수도 변수도 객체에 멤버가 없어서 사용 못한다. 
+이 키워드로 익명 클래스를 만든다고 보면 됨
+```kotlin
+Companion object {
+} // 를 클래스에서 설정하면 안에있는 멤버를 메인함수안에서 바로 사용 가능하다.
+```
+
+
+
+
