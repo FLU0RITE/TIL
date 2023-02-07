@@ -9,6 +9,8 @@
   + [문법 & 함수 & 변수](./androidStudio/kotlinGrammar.md)
   + [코틀린 객체지향](./androidStudio/kotlinOOP.md)
   + [널 안정성 & 람다함수](./androidStudio/nullLambda.md)
+  + [뷰를 이용한 화면 구성](./androidStudio/view.md)
+  
 ## 문제풀이
 ---
 * 백준
