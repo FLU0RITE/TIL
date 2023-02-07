@@ -70,8 +70,9 @@ Val some =  {n1: Int, n2: Int -> n1 > n2} 처럼 Some 함수의 타입을 생략
 
 ##### 고차함수
 고차 함수란 함수를 매개변수로 전달받거나 반환하는 함수를 의미한다.
+Hotfun()은 고차함수이다.
 
-
+<img width="290" alt="스크린샷 2023-02-07 오후 6 14 13" src="https://user-images.githubusercontent.com/102038962/217202107-ee5a7889-02b9-4b7c-9acb-29cfab08ae46.png">
 
 
 
