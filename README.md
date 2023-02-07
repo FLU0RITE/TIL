@@ -4,9 +4,9 @@
 
 ## 안드로이드 스튜디오
 ---
-* 정리
+* 공부
   + [문법 & 함수 & 변수](./androidStudio/kotlinGrammar.md)
-
+  + [코틀린 객체지향](./androidStudio/kotlinOOP.md)
 ## 문제풀이
 ---
 * 백준
