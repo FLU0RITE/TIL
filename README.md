@@ -4,6 +4,7 @@
 
 ## 안드로이드 스튜디오
 ---
+전역 후 공부, 정리했던 
 * 공부
   + [문법 & 함수 & 변수](./androidStudio/kotlinGrammar.md)
   + [코틀린 객체지향](./androidStudio/kotlinOOP.md)
