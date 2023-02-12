@@ -12,6 +12,7 @@
   + [뷰로 화면 구성](./androidStudio/view.md)
   + [뷰 배치 레이아웃](./androidStudio/viewLayout.md)
   + [사용자 이벤트 처리](./androidStudio/userEvent.md)
+  + [리소스 활용](./androidStudio/resource.md)
   
 ## 문제풀이
 ---
