@@ -15,6 +15,7 @@
   + [리소스 활용](./androidStudio/resource.md)
   + [다이얼로그와 알람](./androidStudio/dialogAlarm.md)
   + [제트팩라이브러리](./androidStudio/jetpack.md)
+  + [그외](./androidStudio)
   
 ## 문제풀이
 ---
